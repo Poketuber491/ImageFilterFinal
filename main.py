@@ -8,7 +8,7 @@ client = discord.Client()
 clientGoogle = vision.ImageAnnotatorClient()
 
 
-TOKEN = process.env.token
+TOKEN = process.env.TOKEN
 
 @client.event
 async def on_ready():
